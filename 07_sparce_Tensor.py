@@ -80,3 +80,6 @@ d=tf.sparse.to_dense(ad)
 print(d.numpy())
 
 
+
+
+# ----------------END------------------------

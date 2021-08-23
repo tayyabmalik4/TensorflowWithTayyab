@@ -55,3 +55,6 @@ zero=zeros_variable((2,3,3),tf.int32,tf.zeros_initializer())
 # -----If we want to creat a zeros_initializer than we use this menthod
 zero0=tf.Variable(tf.zeros_initializer()((2,2),tf.float64))
 print(zero0)
+
+
+# ----------------END--------------------
