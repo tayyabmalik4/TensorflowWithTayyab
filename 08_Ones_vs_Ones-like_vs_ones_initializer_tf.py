@@ -44,6 +44,10 @@ one_init=ones_variable((2,2),tf.float32,tf.ones_initializer())
 one_init3=ones_variable((2,3,3),tf.float32,tf.ones_initializer())
 # print(one_init3)
 
+# ----if we want to use ones_initializer in one line then we use this method
+one=tf.Variable(tf.ones_initializer()((3,4),tf.float64))
+print(one)
+
 
 
 
